@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="./assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <meta
+      name="msapplication-config"
+      content="./assets/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Map -->
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+    />
+
+    <!-- Title -->
+    <title>My profil</title>
+  </head>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
+    <div class="container">
+      <!-- Navbar brand (mobile) -->
+      <a class="navbar-brand d-lg-none" href="../index.html">back</a>
+
+      <!-- Navbar toggler -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Navbar nav -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">BACK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="#"> </a>
+
+        <!-- Navbar nav -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <!-- WELCOME -->
+    <header
+      data-jarallax
+      data-speed=".8"
+      style="background-image: url(assets/img/backround.gif)"
+    >
+      <div
+        class="d-flex flex-column min-vh-100 bg-black-50 pt-10 pt-md-8 pb-7 pb-md-0"
+      >
+        <div class="container my-auto">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+              <!-- Heading -->
+              <h1 class="display-1 text-white mb-4">𝒲𝐸𝐿𝒞𝒪𝑀𝐸</h1>
+
+              <!-- Subheading -->
+              <p class="text-center text-white-75 mb-7">
+                <!--boleh di isi jika perlu-->
+              </p>
+
+              <!-- Button -->
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md">
+              <!-- Social links -->
+              <ul class="list-inline text-center text-md-start mb-3 my-md-5">
+                <li class="list-inline-item">
+                  <a
+                    class="text-white-75 text-primary-hover"
+                    href="https://twitter.com/donidoff"
+                    target="_blank"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item ms-5">
+                  <a
+                    class="text-white-75 text-primary-hover"
+                    target="_blank"
+                    href="https://www.facebook.com/doni.serawai"
+                    target="_blank"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item ms-5">
+                  <a
+                    class="text-white-75 text-primary-hover"
+                    target="_blank"
+                    href="https://www.instagram.com/dev_doni/?hl=id"
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <!-- Address -->
+              <p
+                class="font-serif text-white-75 text-center text-md-end text-lg-end my-md-5"
+              >
+                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                pontianak, kalimantan barat indonesia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- DISCOVER -->
+    <section class="py-7 py-md-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 order-md-2 align-self-end"></div>
+          <div class="col-md-4 order-md-3">
+            <!-- Media -->
+            <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+              <!-- Solid -->
+              <div
+                class="media-decoration-solid"
+                data-jarallax-element="-40"
+              ></div>
+
+              <!-- Border -->
+              <div
+                class="media-decoration-border"
+                data-jarallax-element="-40"
+              ></div>
+
+              <!-- Image -->
+              <img
+                class="media-decoration-img img-fluid"
+                src="assets/img/devv.jpg"
+                alt="..."
+              />
+              <!-- Text -->
+              <p class="fs-lg lh-lg text-black mb-5 mb-md-0">Devenitus Doni</p>
+              <!-- Divider -->
+              <hr class="hr-sm bg-primary" />
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1 align-self-center mx-auto">
+            <!-- Heading -->
+            <h2 class="mb-2"><em>By</em> pemilik website</h2>
+
+            <!-- Text -->
+            <p class="mb-0">
+              hallo teman-teman semua, kenalin aku Doni yang membuat dan
+              merancang website ini. banyak proses yang aku lalui dan aku
+              siapkan untuk semua ini supaya semuanya bisa tersusun rapi dan
+              kompleks seperti yang terlihat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-7 py-md-9 bg-black">
+      <div class="container px-4">
+        <div class="row gx-7">
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">About Us</h5>
+
+            <!-- Text -->
+            <p class="mb-6">
+              memberi wawansan yang belum tentu anda dapatkan dan anda lihat.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">Contact info</h5>
+
+            <!-- List -->
+            <ul class="list-unstyled mb-6">
+              <li class="d-flex mb-2">
+                <div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
+                pontianak, kalimantan barat indonesia
+              </li>
+              <li class="d-flex">
+                <div class="far fa-envelope me-3 mt-2 fs-sm"></div>
+                <a href="mailto:admin@domain.com">1202doni@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Copyright -->
+            <div class="d-flex align-items-center">
+              <hr class="hr-sm me-3" style="height: 1px" />
+              &copy; 2021 Dev.doni from Indonesian
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  -->
+    <!-- TOAST -->
+    <div
+      class="toast position-fixed bottom-0 start-50 translate-middle-x mb-3 mb-md-5"
+      id="notification"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body mx-auto"></div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+  </body>
+</html>
